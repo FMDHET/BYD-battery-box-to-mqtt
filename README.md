@@ -31,7 +31,7 @@ password = "byd@12345"
 # --- MQTT CONFIG ---
 MQTT_BROKER = "192.168.177.xx"  # <--- Set your Battery Box IP address here
 MQTT_PORT = 1883
-MQTT_USER = "mqtt"
+MQTT_USER = "your_user"
 MQTT_PASSWORD = "your_password"
 ```
 
