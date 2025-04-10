@@ -1,6 +1,4 @@
-# BYD-battery-box
-
-# BYD Battery Box MQTT Exporter
+# BYD Battery Box to MQTT 
 
 This Python script reads battery and array data from a BYD Battery Box via HTTP and publishes the values to an MQTT broker. It is designed for easy integration with [Home Assistant](https://www.home-assistant.io/) via MQTT Discovery.
 
@@ -32,6 +30,7 @@ MQTT_BROKER = "192.168.177.xx"  # <--- Set your Battery Box IP address here
 MQTT_PORT = 1883
 MQTT_USER = "mqtt"
 MQTT_PASSWORD = "your_password"
+```
 
 <img width="1114" alt="BYD-Battery-Box" src="https://github.com/user-attachments/assets/e8dc939f-5725-401a-91ac-5c87b0ff2dd5" />
 
