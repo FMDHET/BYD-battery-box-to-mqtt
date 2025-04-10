@@ -8,7 +8,7 @@ from datetime import datetime
 import paho.mqtt.client as mqtt
 
 # --- Konfiguration ---
-BATTERIES_PER_ARRAY = 6
+BATTERIES_PER_ARRAY = 6                       # <--- Set your numer of battery module
 
 # --- MQTT CONFIG ---
 MQTT_BROKER = "192.168.177.xx"                # <--- Set your MQTT IP address here
