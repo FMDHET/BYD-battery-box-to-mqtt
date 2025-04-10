@@ -115,7 +115,7 @@ while True:
         r.raise_for_status()
         array_data = parse_array_data(r.text)
     except Exception as e:
-        print(f"⚠️ Fehler beim Array 1: {e}")
+        print(f"⚠️ error array 1: {e}")
     else:
         for key, value in array_data.items():
             topic = f"{TOPIC_BATTERY}/{key}"
@@ -161,7 +161,7 @@ while True:
             for k, v in data.items():
                 battery_data[k] = v
         except Exception as e:
-            print(f"⚠️ Fehler bei Batterie {battery_num}: {e}")
+            print(f"⚠️ error battery {battery_num}: {e}")
 
     timestamp = datetime.now().isoformat()
 
@@ -209,6 +209,6 @@ while True:
     if discovery_now:
         last_discovery = time.time()
 
-    print(f"✅ Daten gesendet: {timestamp}")
+    print(f"✅ data sent: {timestamp}")
     time.sleep(PUBLISH_INTERVAL)
              
