@@ -35,6 +35,24 @@ MQTT_USER = "your_user"
 MQTT_PASSWORD = "your_password"
 ```
 
+Requirements
+
+Install the required Python packages:
+
+```requirements
+pip install requests beautifulsoup4 paho-mqtt
+```
+
+
+Usage
+
+Run the script:
+
+```usage
+python byd_battery_mqtt.py
+```
+
+
 <img width="1114" alt="BYD-Battery-Box" src="https://github.com/user-attachments/assets/e8dc939f-5725-401a-91ac-5c87b0ff2dd5" />
 
 <img width="401" alt="Array" src="https://github.com/user-attachments/assets/7ea4fbed-ab8b-4d03-975c-8d84f6764d16" />
