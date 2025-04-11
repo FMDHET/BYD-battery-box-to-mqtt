@@ -105,4 +105,4 @@ journalctl -u byd.service -f
 
 <img width="401" alt="Array" src="https://github.com/user-attachments/assets/7ea4fbed-ab8b-4d03-975c-8d84f6764d16" />
 
-<img width="785" alt="Battery-Module" src="https://github.com/user-attachments/assets/6d71ffbb-eb86-4542-b019-ed9e03182beb" />
+![Battery-Module](https://github.com/user-attachments/assets/ca1be518-55f2-4891-8990-405f0d075cda)
