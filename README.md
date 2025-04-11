@@ -52,6 +52,24 @@ Run the script:
 python byd_battery_mqtt.py
 ```
 
+## Installation on debian
+``ìnstall
+sudo apt update
+sudo apt install python3 python3-pip -y
+pip3 install paho-mqtt requests beautifulsoup4
+```
+
+safe the script
+mkdir -p /opt/byd_monitor
+nano /opt/byd_monitor/BYD_Battery-Box_to_MQTT.py
+
+
+
+
+
+
+
+
 
 <img width="1114" alt="BYD-Battery-Box" src="https://github.com/user-attachments/assets/e8dc939f-5725-401a-91ac-5c87b0ff2dd5" />
 
