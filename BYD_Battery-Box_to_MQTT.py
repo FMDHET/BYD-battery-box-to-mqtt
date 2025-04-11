@@ -7,7 +7,7 @@ import time
 from datetime import datetime
 import paho.mqtt.client as mqtt
 
-# --- Konfiguration ---
+# --- CONFIG ---
 BATTERIES_PER_ARRAY = 6                       # <--- Set your numer of battery module
 
 # --- MQTT CONFIG ---
