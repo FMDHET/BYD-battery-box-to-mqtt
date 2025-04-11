@@ -43,7 +43,6 @@ Install the required Python packages:
 pip install requests beautifulsoup4 paho-mqtt
 ```
 
-
 ## Usage
 
 Run the script:
@@ -100,6 +99,7 @@ journalctl -u byd.service -f
 
 
 
+
 ## Overview BYD-Webinterface
 
 <img width="700" alt="BYD-Battery-Box" src="https://github.com/user-attachments/assets/e8dc939f-5725-401a-91ac-5c87b0ff2dd5" />
@@ -109,7 +109,10 @@ journalctl -u byd.service -f
 <img width="450" alt="![Battery-Module]" src="https://github.com/user-attachments/assets/39a54fe5-4112-488b-9caa-e95a85e6ed37" />
 
 
+
+
 ## Home Assistant - MQTT Discovery
+
 
 <img width="700" alt="HA-MQTT" src="https://github.com/user-attachments/assets/5c41f5ac-22fb-4a60-be78-df34a82b2607" />
 
