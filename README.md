@@ -102,7 +102,7 @@ journalctl -u byd.service -f
 
 ## Overview BYD-Webinterface
 
-<img width="702" alt="BYD-Battery-Box" src="https://github.com/user-attachments/assets/e8dc939f-5725-401a-91ac-5c87b0ff2dd5" />
+<img width="705" alt="BYD-Battery-Box" src="https://github.com/user-attachments/assets/e8dc939f-5725-401a-91ac-5c87b0ff2dd5" />
 
 <img width="350" alt="Array" src="https://github.com/user-attachments/assets/7ea4fbed-ab8b-4d03-975c-8d84f6764d16" />
 
@@ -114,6 +114,6 @@ journalctl -u byd.service -f
 ## Home Assistant - MQTT Discovery
 
 
-<img width="702" alt="HA-MQTT" src="https://github.com/user-attachments/assets/5c41f5ac-22fb-4a60-be78-df34a82b2607" />
+<img width="705" alt="HA-MQTT" src="https://github.com/user-attachments/assets/5c41f5ac-22fb-4a60-be78-df34a82b2607" />
 
 
