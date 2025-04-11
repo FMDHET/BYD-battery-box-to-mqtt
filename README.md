@@ -74,7 +74,7 @@ Description=BYD Battery MQTT Monitor
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /opt/byd_monitor/byd_mqtt.py
+ExecStart=/usr/bin/python3 /opt/byd_monitor/BYD_Battery-Box_to_MQTT.py
 WorkingDirectory=/opt/byd_monitor
 Restart=always
 RestartSec=5
