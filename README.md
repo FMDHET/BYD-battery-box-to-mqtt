@@ -48,7 +48,7 @@ pip install requests beautifulsoup4 paho-mqtt
 Run the script:
 
 ```usage
-python byd_battery_mqtt.py
+python BYD_Battery-Box_to_MQTT.py
 ```
 
 ## Installation on debian
@@ -58,8 +58,8 @@ apt update
 apt install python3 python3-pip -y
 pip3 install paho-mqtt requests beautifulsoup4
 
-mkdir -p /opt/byd_monitor
-nano /opt/byd_monitor/BYD_Battery-Box_to_MQTT.py
+mkdir -p /opt/byd_mqtt
+nano /opt/byd_mqtt/BYD_Battery-Box_to_MQTT.py
 ```
 
 Setup the script according you needs. e.g. IP adresses, mqtt user, password.
@@ -70,12 +70,12 @@ nano /etc/systemd/system/byd.service
 
 ```content daemon
 [Unit]
-Description=BYD Battery MQTT Monitor
+Description=BYD Battery Box to MQTT
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /opt/byd_monitor/BYD_Battery-Box_to_MQTT.py
-WorkingDirectory=/opt/byd_monitor
+ExecStart=/usr/bin/python3 /opt/byd_mqtt/BYD_Battery-Box_to_MQTT.py
+WorkingDirectory=/opt/byd_mqtt
 Restart=always
 RestartSec=5
 StandardOutput=journal
