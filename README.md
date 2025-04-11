@@ -1,4 +1,4 @@
-# BYD Battery Box (Gen 2) to MQTT 
+# BYD Battery-Box (Gen 2) to MQTT 
 
 ![BYD_Battery_Evolution](https://github.com/user-attachments/assets/9f16f637-c7ba-4ec7-b614-82f2f84f69e3)
 
