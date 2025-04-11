@@ -7,7 +7,7 @@ This Python script reads battery and array data from a BYD Battery Box via HTTP 
 
 ## Features
 
-- 🔌 Connects to a BYD Battery Box using HTTP Basic Authentication
+- 🔌 Connects to a BYD Battery-Box using HTTP Basic Authentication
 - 📡 Parses key metrics like:
   - `BattVol`, `CellVol[1-16]`, `CellTemp[1-4]`
   - `SOC`, `Current`, `Power`, `ArrayVoltage`
