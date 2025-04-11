@@ -70,7 +70,7 @@ nano /etc/systemd/system/byd.service
 
 ```content daemon
 [Unit]
-Description=BYD Battery Box to MQTT
+Description=BYD Battery-Box to MQTT
 After=network.target
 
 [Service]
