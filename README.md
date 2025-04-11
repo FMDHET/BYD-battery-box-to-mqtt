@@ -21,18 +21,32 @@ This Python script reads battery and array data from a BYD Battery Box via HTTP 
 Update the following section in the script to match your setup:
 
 ```python
+# --- CONFIG ---
+BATTERIES_PER_ARRAY = 6                       # <--- Set your numer of battery module
+
+# --- MQTT CONFIG ---
+MQTT_BROKER = "192.168.177.xx"                # <--- Set your MQTT IP address here
+MQTT_PORT = 1883
+MQTT_USER = "your_user"                       # <--- Set your MQTT user here
+MQTT_PASSWORD = "your_password"               # <--- Set your MQTT password here
+TOPIC_BATTERY = "homeassistant/sensor/BYD/Battery"
+DISCOVERY_PREFIX = "homeassistant"
+
 # --- BYD CONFIG ---
-BATTERY_IP = "192.168.177.xx"  # <--- Set your Battery Box IP address here
+BATTERY_IP = "192.168.177.xx"                 # <--- Set your Battery Box IP address here
 url = f"http://{BATTERY_IP}/asp/RunData.asp"
 username = "installer"
 password = "byd@12345"
+```
 
+I found several Webinterface login credentials online:
 
-# --- MQTT CONFIG ---
-MQTT_BROKER = "192.168.177.xx"  # <--- Set your Battery Box IP address here
-MQTT_PORT = 1883
-MQTT_USER = "your_user"
-MQTT_PASSWORD = "your_password"
+```Webinterface login
+user/user
+admin/admin
+ installer/byd@12345
+ installer/BYDB-Box
+installer/BYD@12345
 ```
 
 ## Requirements
