@@ -35,7 +35,7 @@ MQTT_USER = "your_user"
 MQTT_PASSWORD = "your_password"
 ```
 
-Requirements
+## Requirements
 
 Install the required Python packages:
 
@@ -44,7 +44,7 @@ pip install requests beautifulsoup4 paho-mqtt
 ```
 
 
-Usage
+## Usage
 
 Run the script:
 
