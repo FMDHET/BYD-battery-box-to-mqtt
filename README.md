@@ -1,6 +1,6 @@
 # BYD Battery Box (Gen 2) to MQTT 
 
-![BYD_Battery_Evolution](https://github.com/user-attachments/assets/eb15220b-9607-4d9e-9716-d18a79a327cc)
+![BYD_Battery_Evolution](https://github.com/user-attachments/assets/9f16f637-c7ba-4ec7-b614-82f2f84f69e3)
 
 
 This Python script reads battery and array data from a BYD Battery Box via HTTP and publishes the values to an MQTT broker. It is designed for easy integration with [Home Assistant](https://www.home-assistant.io/) via MQTT Discovery.
