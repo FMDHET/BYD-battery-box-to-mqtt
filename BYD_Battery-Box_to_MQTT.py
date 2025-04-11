@@ -101,7 +101,7 @@ def parse_array_data(html):
                     array_data[key] = value
     return array_data
 
-print("📡 Starte MQTT (reduzierte Batterie-Daten + Array 1)")
+print("📡 Start sending MQTT")
 
 last_discovery = 0
 
