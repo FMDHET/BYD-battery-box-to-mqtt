@@ -48,6 +48,8 @@ def publish_discovery(sensor_key, name, topic_path, unit=None, device_class=None
         }
     }
     if unit: payload["unit_of_measurement"] = unit
+    if unit == "V": payload["suggested_display_precision"] = 2
+    if unit == "°C": payload["suggested_display_precision"] = 1
     if device_class: payload["device_class"] = device_class
     if state_class: payload["state_class"] = state_class
     client.publish(discovery_topic, json.dumps(payload), retain=True)
